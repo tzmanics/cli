@@ -37,6 +37,7 @@
   "bugs": {
     "url": "https://github.com/netlify/cli/issues"
   },
+  "schematics": "./schematics/collections.json",
   "scripts": {
     "build": "run-s build:*",
     "build:site": "cd site && npm install && npm run build",
@@ -140,6 +141,7 @@
     "write-file-atomic": "^3.0.0"
   },
   "devDependencies": {
+    "@angular-devkit/core": "^8.3.18",
     "@oclif/dev-cli": "^1.22.2",
     "@oclif/test": "^1.2.5",
     "algoliasearch": "^3.34.0",
